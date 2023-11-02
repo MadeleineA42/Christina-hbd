@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        // 'smokin': ['Smokum', 'cursive'],
+                        'dance': ['Dancing Script', 'cursive'],
+                    },
+                    colors: {
+                    }
+                }
+            }
+        };
+    </script>
+    <title>Bday Card</title>
+</head>
+
+<body>
+    <div class="text-container">
+        <p class="font-dance text-blue-100 text-4xl md:text-5xl lg:text-6xl">Happy Birthday!</p>
+        <p class="font-dance text-blue-100 text-4xl md:text-5xl lg:text-8xl">Thirty, Flirty and Thriving</p>
+    </div>
+
+    <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <div class="carousel flex items-center mb-6">
+            <!-- <img src="images/F90B4D39-4843-4902-81E3-6198192F5B74.jpeg" alt=""> -->
+            <!-- more images here  -->
+        </div>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+<footer class="text-blue-600">Made with 💚 by Madeleine</footer>
+</html>
